@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "league of legends",
+    "line": 1,
+    "id": "league-of-legends",
+    "tags": [],
+    "uri": "lol.feature",
+    "elements": [
+      {
+        "id": "league-of-legends;login-com-credednciais-validas",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "login com credednciais validas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que esteja na pagina home",
+            "result": {
+              "status": "passed",
+              "duration": 26531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que eu clique em iniciar sessao",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "eu preencho nome do usuario com \"usuarioValido\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "eu preencho senha com \"senhaValida\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "eu clico em iniciar sessao",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "eu devo estar na pagina home novamente",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "e no canto superior direito deve aparecer meu \"usuarioValido\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

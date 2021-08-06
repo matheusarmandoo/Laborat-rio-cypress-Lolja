@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Lolja",
+    "line": 1,
+    "id": "lolja",
+    "tags": [],
+    "uri": "loljaLogin.feature",
+    "elements": [
+      {
+        "id": "lolja;realizar-login-com-dados-validos",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Realizar login com dados validos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que esteja na pagina home",
+            "result": {
+              "status": "passed",
+              "duration": 45097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "realizar login com dados validos",
+            "result": {
+              "status": "passed",
+              "duration": 16799000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "devera ser enviado a uma pagina com os meus dados de usuario",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "lolja;realizar-login-com-dados-invalidos",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Realizar login com dados invalidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que esteja na pagina home",
+            "result": {
+              "status": "passed",
+              "duration": 22304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "realizar login com dados invalidos",
+            "result": {
+              "status": "passed",
+              "duration": 18209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "devera aparecer uma mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

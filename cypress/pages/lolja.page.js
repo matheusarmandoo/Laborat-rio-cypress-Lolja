@@ -11,16 +11,16 @@ export class Lolja extends Base{
 
     static login_lolja(){
         cy.get('.itens-rt > .login-logout-signin > .wrp-txt-account > .p-login').click();
-        super.typeValue(log.IMP_USER, "matheus.armando.acc@gmail.com");
+        super.typeValue(log.IMP_USER, "cooloque um email cadastradp no site");
         super.typeValue(log.IMP_PASSWORD, "matheusCypress543");
         super.clickOnElement(log.BTN_LOGIN);
         cy.wait(5000);
        cy.get('.btn-close').click();
     }
     static valida_dados_usuario(){
-        cy.get(log.VALID_NOME).should("contain", "Matheus Armando");
-        cy.get(log.VALID_EMAIL).should("contain", "matheus.armando.acc@gmail.com");
-        cy.get(log.VALID_NUMBER).should("contain", "81996622818");
+        cy.get(log.VALID_NOME).should("contain", "nome do cadastro");
+        cy.get(log.VALID_EMAIL).should("contain", "email do cadastro");
+        cy.get(log.VALID_NUMBER).should("contain", "nuemro do cadastro");
     }
     static login_lolja_invalido(){
         cy.get('.itens-rt > .login-logout-signin > .wrp-txt-account > .p-login').click();

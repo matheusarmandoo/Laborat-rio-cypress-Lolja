@@ -24,8 +24,8 @@ export class Lolja extends Base{
     }
     static login_lolja_invalido(){
         cy.get('.itens-rt > .login-logout-signin > .wrp-txt-account > .p-login').click();
-        super.typeValue(log.IMP_USER, "matheus.armando.acc@gmail.com");
-        super.typeValue(log.IMP_PASSWORD, "543u5454");
+        super.typeValue(log.IMP_USER, "email valido");
+        super.typeValue(log.IMP_PASSWORD, "senha inválida");
         super.clickOnElement(log.BTN_LOGIN);
         cy.wait(5000);
     }
